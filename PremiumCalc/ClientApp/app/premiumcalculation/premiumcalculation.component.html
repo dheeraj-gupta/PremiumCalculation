@@ -1,0 +1,38 @@
+﻿<div class="container">
+   
+    <div class="row" *ngIf="displayPremiumSection">
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <form (ngSubmit)="calculatePremium()" #customerForm="ngForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input name="Name" type="text" class="form-control" [(ngModel)]="customer.Name" required />
+                </div>
+                <div class="form-group">
+                    <label for="DateOfBirth">Date Of Birth</label>
+                    <input name="DateOfBirth" type="date" class="form-control" [(ngModel)]="customer.DateOfBirth" required />
+                </div>
+                <div class="form-group">
+                    <label for="Gender">Gender</label>
+                    <select name="Gender" class="form-control" [(ngModel)]="customer.Gender">
+                        <option [ngValue]="gender.Key" *ngFor="let gender of genderList">
+                            {{gender.Value}}
+                        </option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary" [disabled]="customer.Gender=='SelectGender' || !customerForm.form.valid">Calculate Premium</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row" *ngIf="!displayPremiumSection">
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <div class="form-group">
+                <p>{{ premiumInfo }}</p>
+                <button (click)="recalculatePremium()" class="btn btn-success">Recalculate Premium</button>
+            </div>
+        </div>
+    </div>
+
+    <div class='has-error' *ngIf='errorMessage'>{{errorMessage}}</div>
+</div>

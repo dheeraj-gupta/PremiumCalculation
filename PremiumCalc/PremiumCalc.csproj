@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TypeScriptToolsVersion>2.3</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ClientApp\app\classdetail\**" />
+    <Compile Remove="ClientApp\app\classesinfo\**" />
+    <Compile Remove="Data\**" />
+    <Content Remove="ClientApp\app\classdetail\**" />
+    <Content Remove="ClientApp\app\classesinfo\**" />
+    <Content Remove="Data\**" />
+    <EmbeddedResource Remove="ClientApp\app\classdetail\**" />
+    <EmbeddedResource Remove="ClientApp\app\classesinfo\**" />
+    <EmbeddedResource Remove="Data\**" />
+    <None Remove="ClientApp\app\classdetail\**" />
+    <None Remove="ClientApp\app\classesinfo\**" />
+    <None Remove="Data\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\ClassDetailController.cs" />
+    <Compile Remove="Controllers\ClassesController.cs" />
+    <Compile Remove="ViewModels\ClassDetailViewModel.cs" />
+    <Compile Remove="ViewModels\ClassesViewModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\SaveClassDetails.cshtml" />
+    <Content Remove="Views\Home\_GetClassDetailsInfo.cshtml" />
+    <Content Remove="Views\Home\_GetClassesInfo.cshtml" />
+    <Content Remove="Views\Home\_SetClassDetailsInfo.cshtml" />
+    <Content Remove="Views\Home\_SetClassesInfo.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="ClientApp\app\premiumcalculation\premiumcalculation.component.ts" />
+    <None Remove="ClientApp\app\shared\classdetail.ts" />
+    <None Remove="ClientApp\app\shared\classes.ts" />
+    <None Remove="ClientApp\app\shared\customer.ts" />
+    <None Remove="ClientApp\app\shared\generic-validator.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameWorkCore.Tools.Dotnet" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\app\premiumcalculation\premiumcalculation.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\shared\customer.ts" />
+  </ItemGroup>
+
+</Project>

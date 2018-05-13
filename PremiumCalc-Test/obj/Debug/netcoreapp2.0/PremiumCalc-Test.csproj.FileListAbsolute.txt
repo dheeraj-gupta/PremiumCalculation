@@ -1,0 +1,13 @@
+D:\PremiumCalc\PremiumCalc-Test\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\PremiumCalc\PremiumCalc-Test\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\PremiumCalc\PremiumCalc-Test\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\PremiumCalc\PremiumCalc-Test\bin\Debug\netcoreapp2.0\PremiumCalc-Test.deps.json
+D:\PremiumCalc\PremiumCalc-Test\bin\Debug\netcoreapp2.0\PremiumCalc-Test.runtimeconfig.json
+D:\PremiumCalc\PremiumCalc-Test\bin\Debug\netcoreapp2.0\PremiumCalc-Test.runtimeconfig.dev.json
+D:\PremiumCalc\PremiumCalc-Test\bin\Debug\netcoreapp2.0\PremiumCalc-Test.dll
+D:\PremiumCalc\PremiumCalc-Test\bin\Debug\netcoreapp2.0\PremiumCalc.dll
+D:\PremiumCalc\PremiumCalc-Test\bin\Debug\netcoreapp2.0\PremiumCalc.pdb
+D:\PremiumCalc\PremiumCalc-Test\obj\Debug\netcoreapp2.0\PremiumCalc-Test.csprojResolveAssemblyReference.cache
+D:\PremiumCalc\PremiumCalc-Test\obj\Debug\netcoreapp2.0\PremiumCalc-Test.csproj.CoreCompileInputs.cache
+D:\PremiumCalc\PremiumCalc-Test\obj\Debug\netcoreapp2.0\PremiumCalc-Test.AssemblyInfoInputs.cache
+D:\PremiumCalc\PremiumCalc-Test\obj\Debug\netcoreapp2.0\PremiumCalc-Test.AssemblyInfo.cs

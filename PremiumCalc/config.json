@@ -1,0 +1,25 @@
+{
+  "Colors": {
+    "Favorite": "blue"
+  },
+  "ConnectionStrings": {
+    "ClassesConnectionString": "server=(localdb)\\ProjectsV13;Database=ClassesDB;Integrated Security=true;MultipleActiveResultSets=true;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning"
+    }
+  },
+  "PremiumCalculationSetting": {
+    "MaleGenderFactor": "1.2",
+    "FeMaleGenderFactor": "1.1",
+    "MinAge": "18",
+    "MaxAge": "65",
+    "Multiplier": "100"
+
+
+
+  }
+
+}
