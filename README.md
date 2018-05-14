@@ -26,9 +26,14 @@ Areas for Improvemnt
 
 Front End
 
+Use of ngOnInt and other lifecyle related function using typescript
+
 use of Reactive forms on Angular side
+
 use of servicelayer on Angular side for posting data to .netcore API
+
 missing unit test case for  FrontEnd code
+
 Look and feel  of Page could be improve 
 
 Backend code
